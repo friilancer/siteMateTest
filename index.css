@@ -8,15 +8,30 @@ button{
     cursor: pointer;
 }
 
+.modal_container{
+    width: 100vw;
+    height: 100vw;
+    background: rgba(0,0,0,0.3);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hide{
+    display: none;
+}
+
 .modal{
     width: 80vw;
-    z-index: 1;
     margin: auto;
-    border: 1px solid red;
     text-align: center;
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 10px;
+    background: #fff;
+    position: relative;
+    top: 20vh;
 }
 
 .modal_header{

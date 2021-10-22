@@ -8,16 +8,10 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <button>Click Me!</button> 
-    <div id="confirmationDialog" class="modal">
-        <div class="modal_header">
-            Are you sure you want to continue
-        </div>
-        <div class="modal_body">
-            <button>Yes</button>
-            <button>No</button>
-        </div>
-    </div> 
+    <button onclick="createModal('This is a default message')">Click Me!</button>
+    <div id="modalContainer" class="modal_container hide">
+    </div>
+    <div id="display"></div>
     <script src="index.js"></script>  
 </body>
 </html>
